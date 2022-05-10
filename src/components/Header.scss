@@ -1,0 +1,11 @@
+header {
+  // border-bottom: 1px solid rgba(var(--bs-info-rgb), 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  .logo-container {
+    position: relative;
+  }
+}

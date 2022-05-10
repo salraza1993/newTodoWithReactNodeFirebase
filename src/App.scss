@@ -1,0 +1,39 @@
+body {
+  background-color: var(--bs-dark);
+  color: var(--bs-white)
+}
+
+.content_body {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+}
+
+
+.react_logo_animation {
+  position: fixed;
+  bottom: -10vh;
+  left: -7.5vw;
+  width: 35vw;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: .05;    
+
+  img, svg {
+    height: 120%;
+    width: auto;
+    animation: App-logo-spin infinite 30s linear;
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  }
+}
